@@ -1,0 +1,40 @@
+fieldset {
+  background-color: lightgrey;
+}
+
+#name,
+#subject,
+#email {
+  width: 420px;
+  border: none;
+}
+#message {
+  border: none;
+}
+.favFoods,
+.favSports {
+  width: 420px;
+}
+
+button {
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: none;
+}
+
+.food > label {
+  display: inline-block;
+  width: 50%;
+}
+.food > input {
+  display: inline-block;
+  width: auto;
+}
+.sports > label {
+  display: inline-block;
+  width: 50%;
+}
+.sports > input {
+  display: inline-block;
+  width: auto;
+}

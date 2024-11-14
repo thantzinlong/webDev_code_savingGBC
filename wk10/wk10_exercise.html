@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Week 10 Exercise</title>
+    <meta name="description" content="This is wk_10 exercise." />
+    <meta name="keywords" content="info keywords" />
+    <meta name="author" content="Thant Zin Win" />
+    <link href="favicon.ico" rel="shortcut icon" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <fieldset>
+      <legend><strong> Application Form</strong></legend>
+      <div class="container">
+        <form>
+          <label for="name">Name</label> <br>
+          <input type="text" id="name" name="name" placeholder="Your Name" required /> <br><br>
+          <label for="subject">Subject</label> <br>
+          <input type="text" id="subject" name="subject" placeholder="COMP2000 Week 10" required /> <br><br>
+          <label for="email">Email</label> <br>
+          <input type="email" id="email" name="email" required placeholder="firstname.lastname@georgebrown.ca"/> <br><br>
+          <label for="message">Message</label> <br>
+          <textarea name="message" id="message" placeholder="Enter Message...." cols="50" rows="5"></textarea> <br><br>
+          <label for="date">Birth date </label> 
+          <input type="date" name="date" id="date" min="2023-01-01" /> <br>
+          <label for="age">Age</label> 
+          <input type="number" name="age" id="age" min="12" /> <br>
+          <label for="password">Password</label> 
+          <input type="password" id="password" name="password" required /> <br>
+        </form>
+      </div> <br>
+      <div>
+        <fieldset class="favFoods">
+          <legend>Favorite Foods</legend>
+          <div class="food">
+            <label for="pizza">Pizza</label> 
+            <input type="checkbox" id="pizza" /> <br>
+            <label for="hamburger">Hamburger</label> 
+            <input type="checkbox" id="hamburger" /> <br>
+          </div>
+        </fieldset>
+      </div> <br>
+      <div>
+        <fieldset class="favSports">
+          <legend>Favorite Sports</legend>
+          <div class="sports">
+            <label for="soccer">Soccer</label> 
+            <input type="radio" name="fav_sport" value="soccer" id="soccer" /> <br>
+            <label for="volleyball">Volleyball</label> 
+            <input type="radio" name="fav_sport" value="volleyball" id="volleyball" /> <br>
+          </div>
+        </fieldset>
+      </div> <br>
+      <div>
+        <label for="eyecolor">Eye color</label>
+        <select name="eyecolor" id="eyecolor">
+          <option value="hazel">Hazel</option>
+          <option value="brown">Brown</option>
+        </select>
+      </div> <br> 
+      <div>
+        <label for="file">File</label>
+          <input type="file" name="file" id="file" />
+      </div> <br> 
+      <label for="url">URL</label>
+          <input type="url" name="url" id="url" />
+        </div> <br>  <br>
+        <div>
+          <label for="color">Color</label>
+          <input type="color" name="color" id="color" />
+        </div> <br> 
+        <div>
+            <button>RESET</button>
+            <button>SEND MESSAGE!</button>
+        </div>
+    </fieldset>
+
+    <script src="https://my.gblearn.com/js/loadscript.js"></script>
+  </body>
+</html>
